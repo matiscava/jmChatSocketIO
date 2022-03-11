@@ -1,0 +1,22 @@
+{
+  "name": "simple-chat",
+  "version": "0.0.1",
+  "description": "Chat muy imple con Express y Socket.IO",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "Express",
+    "Socket.IO"
+  ],
+  "author": "matiscava",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
